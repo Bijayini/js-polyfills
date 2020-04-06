@@ -10,4 +10,11 @@ const debounce = (func, delay) => {
   };
 };
 
+	button.addEventListener(
+		  "click",
+		  debounce(function() {
+				console.log('here in console');
+		  }, 200)
+		)
+
 
